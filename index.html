@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="calc">
+        <div class="show">
+            <p id="text"></p>
+            <span onclick="AC()" id="ac">AC</span>
+        </div>
+        <div class="button">
+            <span onclick="putnumbers(1)">1</span>
+            <span onclick="putnumbers(2)">2</span>
+            <span onclick="putnumbers(3)">3</span>
+            <span class="functions" onclick="actions('+')">+</span>
+            <span onclick="putnumbers(4)">4</span>
+            <span onclick="putnumbers(5)">5</span>
+            <span onclick="putnumbers(6)">6</span>
+            <span class="functions" onclick="actions('-')">-</span>
+            <span onclick="putnumbers(7)">7</span>
+            <span onclick="putnumbers(8)">8</span>
+            <span onclick="putnumbers(9)">9</span>
+            <span class="functions" onclick="actions('x')">x</span>
+            <span onclick="putnumbers('.')">.</span>
+            <span onclick="putnumbers(0)">0</span>
+            <span class="functions" onclick="answer()">=</span>
+            <span class="functions" onclick="actions('/')">/</span>
+           
+        </div>
+    </div>
+</body>
+
+</html>
